@@ -330,10 +330,6 @@ function keyPressed() {
   if (keyCode == 87 && knight2.y == knight2.minHeight - 40) {
     duringjump1 = true
   }
-  if (keyCode == DOWN_ARROW && keyCode == LEFT_ARROW) {
-
-
-  }
   if (keyCode == 82 && power > 100 && ddd == false) {
     ddd = true;
     push()
